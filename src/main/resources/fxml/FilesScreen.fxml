@@ -3,8 +3,12 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.dinem.controllers.FilesScreenController">
-   <children>
-      <ListView layoutY="71.0" prefHeight="215.0" prefWidth="400.0" />
-   </children>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+	minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0"
+	xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="pl.dinem.controllers.FilesScreenController">
+	<children>
+		<ListView fx:id="listView" layoutX="-99.0" layoutY="45.0"
+			prefHeight="279.0" prefWidth="400.0" />
+	</children>
 </Pane>

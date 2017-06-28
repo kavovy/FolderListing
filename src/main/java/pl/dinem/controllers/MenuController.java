@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
+import pl.dinem.main.Listing;
 
 public class MenuController {
 
@@ -25,7 +26,7 @@ public class MenuController {
 		}
 		FilesScreenController filesScreenController = loader.getController();
 		filesScreenController.setMainWindowController(mainWindowController);
-		
+		filesScreenController.setListing(new Listing(textLabel.getText()));
 		mainWindowController.stackPane.getChildren().add(pane);
 	}
 
